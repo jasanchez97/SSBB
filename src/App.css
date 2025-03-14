@@ -1,0 +1,16 @@
+::-webkit-scrollbar-thumb {
+  background-image: url('../public/images/misc/SmashLogoMouseIn.png');
+  background-size: 100vw 100vw;
+  border-radius: 0;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@media only screen and (min-width: 1024px) {
+    
+}

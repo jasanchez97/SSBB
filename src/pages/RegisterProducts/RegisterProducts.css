@@ -1,0 +1,10 @@
+h1 {
+    display: flex;
+    position: relative;
+    left: 3.5vw;
+    width: 90vw;
+    font-size: 3rem;
+    text-align: center;
+    color: #007bff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,53 @@
+.policyconditions-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: justify;
+    width: 80vw;
+    left: 6%;
+}
+
+.policyconditions-title {
+    width: 70vw;
+    font-size: 2.4rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #2980b9;
+    text-shadow: 0 0 10px #2980b9;
+}
+
+.policyconditions-p {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px #000000;
+    left: 16%;
+}
+
+.policyconditions-p:hover {
+    color: #add8e6;
+    transition: color 0.3s ease;
+}
+
+#conditions {
+    margin-top: 500px;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 768px) {
+    .policyconditions-title {
+        font-size: 2rem;
+        width: 80vw;
+        left: 0%;
+    }
+}

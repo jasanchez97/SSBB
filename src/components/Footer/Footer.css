@@ -1,0 +1,61 @@
+#tabuu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    width: 30%;
+    margin-top: 700px;
+    left: 34%;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    justify-content: space-between;
+    width: 90vw;
+    gap: 50px;
+}
+
+.footer-img{
+    width: 7%;
+}
+
+.footer-css {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer-a1:hover {
+    text-decoration: underline;
+}
+
+#footer-a2:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 768px) {
+    .home-paragraph{
+        margin-bottom: 0%;
+        padding-left: 0%;
+    }
+
+    .footer-main{
+        margin-left: 0;
+        gap: 0px;
+        width: 95vw;
+    }
+
+    .footer-css{
+        font-size: 0.51rem;
+        gap: 1px;
+    }
+
+    .footer-img{
+        display: none;
+    }
+}
