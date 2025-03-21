@@ -3,23 +3,24 @@
   position: relative;
   top: 35vh;
   left: 30vw;
-  margin-bottom: 300px;
 }
 
 .paragraph-main {
-  margin-top: 45%;
+  position: relative;
+  top: 100vh;
+
   transform: perspective(1000px);
   transform-origin: center;
 }
 
 .home-paragraph {
+  position: relative;
+  left: 3%;
   text-indent: 50px;
-  position: static;
+  width: 92vw;
   font-family: "Julius Sans One", serif;
   text-align: justify;
-  margin-bottom: 800px;
-  padding-left: 80px;
-  width: 90%;
+
   align-items: center;
   font-weight: bold;
   color: white;
@@ -31,6 +32,7 @@
   transform: perspective(800px) rotateX(25deg);
   transform-origin: center;
   font-size: 24px;
+  margin-bottom: 30em;
 }
 
 .paragraph-background {
@@ -45,49 +47,49 @@
 }
 
 #p-background-1 {
-  width: 85%;
+  width: 75%;
   top: -12%;
   left: 7.8vw;
 }
 
 #p-background-2 {
-  width: 85%;
+  width: 75%;
   top: 2%;
   left: 7.8vw;
 }
 
 #p-background-3 {
-  width: 85%;
+  width: 75%;
   top: 16.40%;
   left: 7.8vw;
 }
 
 #p-background-4 {
-  width: 85%;
+  width: 75%;
   top: 30.50%;
   left: 7.8vw;
 }
 
 #p-background-5 {
-  width: 85%;
+  width: 75%;
   top: 44.31%;
   left: 7.8vw;
 }
 
 #p-background-6 {
-  width: 85%;
+  wwidth: 75%;
   top: 58.35%;
   left: 7.8vw;
 }
 
 #p-background-7 {
-  width: 85%;
+  width: 75%;
   top: 72.57%;
   left: 7.8vw;
 }
 
 #p-background-8 {
-  width: 85%;
+  width: 75%;
   top: 87%;
   left: 7.8vw;
 }
@@ -99,13 +101,6 @@
     top: 22.50vh;
     left: 10vw;
     width: 80%;
-  }
-
-  .home-paragraph {
-    font-size: 18px;
-    padding-left: 0%;
-    margin-left: 4.25%;
-    margin-bottom: 200px;
   }
 
   #tabuu {

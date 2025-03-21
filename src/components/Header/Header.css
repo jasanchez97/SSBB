@@ -6,7 +6,7 @@
   top: 2%;
   z-index: 10;
   width: 98vw;
-  padding-top: 5px;
+  gap: 3em;
 }
 
 .header-logo {
@@ -15,7 +15,6 @@
   transition: filter 0.5s, opacity 2s, transform 2s ease;
   transition-duration: 2s;
   width: 6vw;
-  left: 5%;
 }
 
 .header-logo:hover {
@@ -25,7 +24,7 @@
 
 .header-buttons {
   display: flex;
-  gap: 50px;
+  gap: 1em;
 }
 
 .header-button {
